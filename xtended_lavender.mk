@@ -19,6 +19,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 XTENDED_BUILD_TYPE := OFFICIAL
 XTENDED_MAINTAINER := ⚡Hazama25⚡
 
+# Inherit dalvik from device
+$(call inherit-product, device/xiaomi/lavender/dalvikheap.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := xtended_lavender
 PRODUCT_DEVICE := lavender
