@@ -486,3 +486,17 @@ PRODUCT_BOOT_JARS += \
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
+
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts \
+    init.gpuboost.rc \
+    init.gpuboost.sh \
+    init.cpuboost.rc \
+    init.cpuboost.sh \
+    init.parallax.rc \
+    init.parallax.sh \
+    init.spectrum.rc \
+    init.spectrum.sh \
+    init.camera.rc \
+    init.camera.sh

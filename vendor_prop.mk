@@ -321,3 +321,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.theme_id=5 \
     ro.com.google.ime.bs_theme=true \
     ro.com.google.ime.system_lm_dir=/product/usr/share/ime/google/d3_lms
+
+# Spectrum
+PRODUCT_PROPERTY_OVERRIDES += \
+    spectrum.support=1 \
+    persist.spectrum.kernel=perf+
