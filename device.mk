@@ -40,7 +40,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 	 $(DEVICE_PATH)/overlay
 
 # APEX
-ENABLE_APEX := true
+ENABLE_APEX := false
 
 # Audio
 PRODUCT_COPY_FILES += \
