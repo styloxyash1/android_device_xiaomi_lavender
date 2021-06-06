@@ -1076,5 +1076,5 @@ vendor/etc/thermal-engine-camera.conf
 vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine-normal.conf
 
-# WiFi - from LA.UM.9.12.r1-10800-SMxx50.0
+# Wifi - from LA.UM.8.2.1.r1-05600-sdm660
 vendor/bin/cnss-daemon
