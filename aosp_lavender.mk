@@ -29,8 +29,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
-# Inherit some common KangOS stuff.
-$(call inherit-product, vendor/kangos/config/common.mk)
+# Inherit some common RohieOS stuff.
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -41,18 +41,12 @@ TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_FACE_UNLOCK_SUPPORTED = true
 
-# KangOS Stuff
-KANGOS_BUILDTYPE := OFFICIAL
-USE_GAPPS := true
-TARGET_INCLUDE_AOSP_REPLACEMENT := true
-
-# KangOS Props
-PRODUCT_PRODUCT_PROPERTIES += \
-  ro.kangos.maintainer=zαι∂кнαи0997 \
-  ro.kangos.cpu=SDM660
+# Maintainer
+ROHIE_MAINTAINER := zαι∂кнαи0997
+ ROHIE_BUILD_TYPE := OFFICIAL
 
 # Device identifier
-PRODUCT_NAME := kangos_lavender
+PRODUCT_NAME := aosp_lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender
