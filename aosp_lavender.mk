@@ -29,6 +29,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
+# Inherit dalvik from device
+$(call inherit-product, device/xiaomi/lavender/dalvikheap.mk)
+
 # Inherit some common RohieOS stuff.
 $(call inherit-product, vendor/aosp/config/common.mk)
 
