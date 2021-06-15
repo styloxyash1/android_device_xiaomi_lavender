@@ -29,8 +29,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
-# Inherit some common KangOS stuff.
-$(call inherit-product, vendor/descendant/config/common.mk)
+# Inherit some common 
+$(call inherit-product, vendor/awaken/config/common.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -40,12 +40,13 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_FACE_UNLOCK_SUPPORTED = true
+USE_GAPPS := true
 
 TARGET_INCLUDE_AOSP_REPLACEMENT := true
 
 
 # Device identifier
-PRODUCT_NAME := descendant_lavender
+PRODUCT_NAME := awaken_lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender
