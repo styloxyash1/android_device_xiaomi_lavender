@@ -39,3 +39,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Set Bootanim reso
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# Misc
+LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
